@@ -1,2 +1,2 @@
 # Practice_Projects
-This is a repository for my beginner projects.
+This is a repository for my personal projects. I am a beginner. 
