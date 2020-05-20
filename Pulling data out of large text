@@ -1,4 +1,5 @@
-#Finding phone number in large text. Starting at small scale. Eventually want to pull key passages out of research articles. 
+#Finding phone number in large text. Based on book exercise 
+#Starting at small scale. Eventually want to pull key passages out of research articles. 
 #Still in progress. Not finished. 
 
 def isphonenumber(text):
