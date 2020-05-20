@@ -1,0 +1,24 @@
+#Finding phone number in large text. Starting at small scale. Eventually want to pull key passages out of research articles. 
+#Still in progress. Not finished. 
+
+def isphonenumber(text):
+    if len(text) !=12:
+        return False
+    for i in range(0,3):
+        #Insert way to tell if text or numbers
+            return False
+        if text[3] != '-':
+            return False
+        for i in range(4,7):
+            #Insert way to tell text from numbers
+                return False
+            if text[7] != '-':
+                return False
+            for i in range(8,12):
+                #Insert way to tell text from numbers
+                    return False
+            return True
+text = #Insert large text here
+for i in range(len(text)):
+    if isphonenumber(text):
+        print('Phone number:' + text)
